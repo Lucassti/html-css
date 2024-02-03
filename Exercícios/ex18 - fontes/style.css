@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*Fontes google*/
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+h1{
+    font-family: 'Vina Sans' , sans-serif;
+    font-weight: 400;
+    font-size: 1.9em;
+    font-style: italic;
+}
+h2{
+    font-family: 'Kdam Thmor' , sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    font-style: italic;
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.div_h1{
+    width: 140px;
+}
+div:hover > h1{
+    color: red;
+}
+h2{
+    font-size: 2em;
+
+}
+
+.cap1{
+    color: rgb(120, 120, 255);
+}
+
+.cap2{
+    color: rgb(43, 43, 255);
+}
+
+.cap3{
+    color: blue;
+}
+
+p{
+    color: rgb(0, 0, 107);
+}

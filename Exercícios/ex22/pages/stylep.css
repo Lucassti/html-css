@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Sprit";
+    src: url("../fonts/spritz_and_delicious/Sprit.otf");
+}
+
+body{
+    font-family:sans-serif;
+}
+.box-titulo{
+    width: 100%;
+    background-color: antiquewhite;
+}
+.titulo-principal{
+    text-align: center;
+
+}
+
+.box-jogos{
+    display:flexbox;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 1px 1px 10px #00000050;
+    margin-right: 2%;
+}
+
+.titulo2{
+   padding-left: 20px;
+}
+
+.box-jogos2{
+    display: flexbox;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 1px 1px 10px #00000050;
+}
+
+.coluna{
+    display: flex;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/*Link*/
+a{
+    color: black;
+    width: 25%;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(122, 122, 122);
+    text-decoration: underline;
+}
+a:visited{
+    color: rgba(68, 0, 255, 0.479);
+}
+
+/**/
+
+/*Estilização*/
+.Marcacao{
+    width: 20%;
+    color: white;
+    background-color: blue;
+    display: inline;
+    padding: 1px;
+    border-color: brown;
+}
+
+.Box.Titulo{
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+    display: block;
+    padding: 2px 1px 2px 1px;
+    border: 2px solid red;
+}
+
+.Titulo{
+    text-align: center;
+}
+
+.lista.jogos{
+    width: 100%;
+    background-color: rgba(200, 255, 0, 0.541);
+    border-radius: 15px;
+    padding: 4px;
+}
+
+.listas{
+    font-family: sans-serif;
+}
+
+.listas2{
+    margin-top: 5px;
+    width: 10%;
+}
+
+li{
+    margin-top: 5px;
+    width: 25%;
+    
+}
