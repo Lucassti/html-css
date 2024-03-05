@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+
+        body{
+            font-family: Arial, Sans-serif;
+        }
+
+        table{
+            width: 50vw;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        Anatomia de Tabelas Grandes
+            THEAD
+                TR,TD,TH
+            TBODY
+                TR,TD,TH
+            TFOOT
+                TR,TD,TH
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>ESTADO</th>
+                <th>POPULAÇÃO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td>3 858 760</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>3 783 639</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>3 679 298</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>3 424 978</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>3 382 210</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>
+                    3 320 568
+                </td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>2 481 043</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>2 063 689</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>1 957 533</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td>1 756 172</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>1 458 836</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td>1 263 738</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Valor Total de Habitantes:</th>
+                    <td><strong>116.843.247</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
