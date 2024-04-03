@@ -4,8 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colunas Colgroup</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .gray{
+            background-color: gray;
+        }
+        .blue{
+            background-color: rgb(110, 110, 250);
+        }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <colgroup>
+            <col class="gray">
+            <col class="blue">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paulo Alves</td>
+                <td>M</td>
+                <td>Médico</td>
+            </tr>
+            <tr>
+                <td>Lívia Andrade</td>
+                <td>F</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Lucas Soares</td>
+                <td>M</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Verônica Silva</td>
+                <td>F</td>
+                <td>Engenheira Química</td>
+            </tr>
+            <tr>
+                <td>Franciso Chico</td>
+                <td>M</td>
+                <td>Engenheiro Físico</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
