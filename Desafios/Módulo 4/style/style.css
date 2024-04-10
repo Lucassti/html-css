@@ -16,13 +16,34 @@ main{
     height: 100vh;
 }
 
+.icones{
+    z-index: 6;
+    position: relative;
+    left: 90%;
+    top: -400%;
+    margin-top: -400%;
+    border-radius: 300px;
+    width: 50px;
+
+}
+
+.bt-lateral > ul{
+    margin-top: -40%;
+
+}
+
+.bt-lateral > ul > li{
+    margin-bottom: 20px;
+}
+
 iframe{
     width: 280px;
     height: 480px;
     position: absolute;
-    left: 340px;
-    top: 240px;
+    left: 50%;
+    top: 50%;
     z-index: 6;
+    transform: translate(-50%, -50%);
 }
 
 .bg-iphone{
