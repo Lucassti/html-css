@@ -5,12 +5,58 @@
     padding: 0;
 }
 
+/*Ocultar barra scroll*/
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 .facebook{
     background-image: url(../image/tela-facebook.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 96vw;
-    height: 400vh;
+    width: 99vw;
+    height: 200vh;
+}
+
+.github{
+    background-image: url(../image/tela-github.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 200vh;
+}
+
+.twitter{
+    background-image: url(../image/tela-twitter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 200vh;
+}
+
+.instagram{
+    background-image: url(../image/tela-instagram.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 200vh;
+}
+
+.youtube{
+    background-image: url(../image/tela-youtube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 200vh;
+}
+
+.home{
+    background-image: url(../image/tela-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 100vh;
 }
 
 .botao{

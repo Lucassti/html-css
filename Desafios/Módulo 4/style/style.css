@@ -33,7 +33,7 @@ main{
 }
 
 .bt-lateral > ul > li{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 iframe{
@@ -44,6 +44,7 @@ iframe{
     top: 50%;
     z-index: 6;
     transform: translate(-50%, -50%);
+    overflow-x: hidden;
 }
 
 .bg-iphone{
